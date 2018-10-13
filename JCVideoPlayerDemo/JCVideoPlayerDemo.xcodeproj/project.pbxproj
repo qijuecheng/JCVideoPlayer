@@ -28,6 +28,9 @@
 		5791B93221722B6A00FB2BC0 /* JCPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791B92521722B6A00FB2BC0 /* JCPlayerView.m */; };
 		5791B93321722B6A00FB2BC0 /* NSString+JCTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791B92621722B6A00FB2BC0 /* NSString+JCTime.m */; };
 		5791B93421722B6A00FB2BC0 /* JCRotationScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5791B92721722B6A00FB2BC0 /* JCRotationScreen.m */; };
+		5791B93621722BED00FB2BC0 /* more_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 5791B93521722BED00FB2BC0 /* more_white.png */; };
+		5791B93821722BFA00FB2BC0 /* big_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 5791B93721722BF900FB2BC0 /* big_pause.png */; };
+		5791B93A21722C0200FB2BC0 /* big_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5791B93921722C0200FB2BC0 /* big_play.png */; };
 		BD46C406FD818544A6FB38D0 /* libPods-JCVideoPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99D3C052E1343CDD2260ED /* libPods-JCVideoPlayerDemo.a */; };
 		E87F690559B4C7E9F28BF3FB /* libPods-JCVideoPlayerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB07B821029F253D08D7A9C3 /* libPods-JCVideoPlayerDemoUITests.a */; };
 /* End PBXBuildFile section */
@@ -85,6 +88,9 @@
 		5791B92621722B6A00FB2BC0 /* NSString+JCTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JCTime.m"; sourceTree = "<group>"; };
 		5791B92721722B6A00FB2BC0 /* JCRotationScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRotationScreen.m; sourceTree = "<group>"; };
 		5791B92821722B6A00FB2BC0 /* JCPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPlayerView.h; sourceTree = "<group>"; };
+		5791B93521722BED00FB2BC0 /* more_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_white.png; sourceTree = "<group>"; };
+		5791B93721722BF900FB2BC0 /* big_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_pause.png; sourceTree = "<group>"; };
+		5791B93921722C0200FB2BC0 /* big_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big_play.png; sourceTree = "<group>"; };
 		79B9709A43737A2AB5899E31 /* Pods-JCVideoPlayerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCVideoPlayerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JCVideoPlayerDemoUITests/Pods-JCVideoPlayerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9074D7F109EBEE81F6EE7636 /* Pods-JCVideoPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCVideoPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCVideoPlayerDemo/Pods-JCVideoPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		97FB8990F00DEC4EE2F7E126 /* Pods-JCVideoPlayerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCVideoPlayerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCVideoPlayerDemoUITests/Pods-JCVideoPlayerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +209,9 @@
 				5791B92121722B6A00FB2BC0 /* volume_close@2x.png */,
 				5791B92221722B6A00FB2BC0 /* return_white.png */,
 				5791B92321722B6A00FB2BC0 /* silder_circle@1x.png */,
+				5791B93721722BF900FB2BC0 /* big_pause.png */,
+				5791B93521722BED00FB2BC0 /* more_white.png */,
+				5791B93921722C0200FB2BC0 /* big_play.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -343,12 +352,15 @@
 				5791B92F21722B6A00FB2BC0 /* volume_close@2x.png in Resources */,
 				5791B92A21722B6A00FB2BC0 /* video_share.png in Resources */,
 				5791B92C21722B6A00FB2BC0 /* video_comment.png in Resources */,
+				5791B93621722BED00FB2BC0 /* more_white.png in Resources */,
 				5791B93121722B6A00FB2BC0 /* silder_circle@1x.png in Resources */,
 				5791B92B21722B6A00FB2BC0 /* video_Fullscreen.png in Resources */,
 				5791B92E21722B6A00FB2BC0 /* volume_open@2x.png in Resources */,
 				5791B93021722B6A00FB2BC0 /* return_white.png in Resources */,
 				5791B84D217222DF00FB2BC0 /* Assets.xcassets in Resources */,
 				5791B92D21722B6A00FB2BC0 /* video_play.png in Resources */,
+				5791B93A21722C0200FB2BC0 /* big_play.png in Resources */,
+				5791B93821722BFA00FB2BC0 /* big_pause.png in Resources */,
 				5791B92921722B6A00FB2BC0 /* video_pause.png in Resources */,
 				5791B84B217222DF00FB2BC0 /* Main.storyboard in Resources */,
 			);
