@@ -1,7 +1,7 @@
 # JCVideoPlayer
 视频播放器
 
-- (void)viewDidLoad {<\br>
+- (void)viewDidLoad {<br>
     [super viewDidLoad];
     JCPlayerView *playerView = [[JCPlayerView alloc] init];
     NSString *url = @"https://pic.ibaotu.com/00/63/01/12h888piCneY.mp4";
