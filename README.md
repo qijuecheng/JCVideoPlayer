@@ -16,7 +16,7 @@
     
  }
 
-// 视频播放器布局,实现此方法进行界面布局
+// 视频播放器布局,实现此方法进行界面布局 <br>
 \- (void)videoPlayerLayoutOfOrientation:(JCPlayScreenOrientation)orientation {<br>
     if (orientation == JCPlayScreenOrientationVertical) {<br>
         [self.playerView mas_remakeConstraints:^(MASConstraintMaker *make) {<br>
