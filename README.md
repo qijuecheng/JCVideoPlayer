@@ -12,7 +12,7 @@
     [playerView isMute:NO];<br>
     [self.view addSubview:playerView];<br>
     
-    _playerView = playerView;<br>
+    _playerView = playerView; 
     
  }
 
