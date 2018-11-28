@@ -1,5 +1,6 @@
 # JCVideoPlayer
 视频播放器
+基于masonry布局
 
 \- (void)viewDidLoad {<br>
     [super viewDidLoad];<br>
@@ -15,7 +16,7 @@
     
  }
 
-
+// 视频播放器布局,实现此方法进行界面布局
 \- (void)videoPlayerLayoutOfOrientation:(JCPlayScreenOrientation)orientation {<br>
     if (orientation == JCPlayScreenOrientationVertical) {<br>
         [self.playerView mas_remakeConstraints:^(MASConstraintMaker *make) {<br>
