@@ -1,5 +1,6 @@
 # JCVideoPlayer
 视频播放器
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     JCPlayerView *playerView = [[JCPlayerView alloc] init];
